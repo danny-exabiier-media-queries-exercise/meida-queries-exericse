@@ -1,4 +1,5 @@
 body {
+    font-family: sans-serif;
     margin:20px;
     display: flex;
     flex-direction: column;
@@ -59,52 +60,85 @@ footer p {
 section:nth-of-type(2) {
     margin-bottom: 50px;
 }
-@media screen and (min-width:576px){
-    body{
+.sub-section {
+    font-style: italic;
+}
+.sub-section h2 {
+    font-size: 1.2rem;
+}
+@media screen and (min-width:768px){
+    body {
         flex-direction: row;
         flex-wrap: wrap;
-        display: flex;
+        justify-content: space-between;
+        column-gap: 20px;
     }
-    div.alert-info {
+    .hidden-on-desktop {
         display: none;
     }
-    h1 {
-        display: flex;
-        justify-content: start;
-        margin-right: 390px;
+
+    .nav-links {
+        flex-direction: row;
+        margin-top: 1.2rem;
+    }
+
+    .nav-links li {
+        background: none;
+    }
+    .main {
+        flex-basis: 55%;
+    }
+    .sub-section {
+        flex-basis: 35%;
     }
     .header-img {
-        box-sizing: border-box;
-        padding: 0;
+        width: 100%;
+    }
+   /* body{*/
+   /*     flex-direction: row;*/
+   /*     flex-wrap: wrap;*/
+   /*     display: flex;*/
+   /* }*/
+   /* div.alert-info {*/
+   /*     display: none;*/
+   /* }*/
+   /* h1 {*/
+   /*     display: flex;*/
+   /*     justify-content: start;*/
+   /*     margin-right: 390px;*/
+   /* }*/
+   /* .header-img {*/
+   /*     box-sizing: border-box;*/
+   /*     padding: 0;*/
 
-    }
-    img {
-        width: 890px;
-        height: 385px;
-        margin: 0;
-        margin-top: 30px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+   /* }*/
+   /* img {*/
+   /*     width: 890px;*/
+   /*     height: 385px;*/
+   /*     margin: 0;*/
+   /*     margin-top: 30px;*/
+   /*     margin-left: 20px;*/
+   /*     margin-right: 20px;*/
+   /* }*/
 
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+   /* ul {*/
+   /*     display: flex;*/
+   /*     flex-direction: row;*/
+   /*     justify-content: space-between;*/
 
-    }
-    li {
-        margin: 0 10px;
-        padding: 0;
-        background-color: white;
-    }
+   /* }*/
+   /* li {*/
+   /*     margin: 0 10px;*/
+   /*     padding: 0;*/
+   /*     background-color: white;*/
+   /* }*/
 
-   section:nth-of-type(1) {
-       flex: 2.5;
-   }
-    section:nth-of-type(2) {
-        flex: 2;
-    }
+   /*section:nth-of-type(1) {*/
+   /*    flex: 2.5;*/
+   /*}*/
+   /* section:nth-of-type(2) {*/
+   /*     flex: 2;*/
+   /* }*/
 
 
 }
