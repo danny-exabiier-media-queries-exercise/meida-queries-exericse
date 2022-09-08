@@ -6,53 +6,11 @@ body {
     justify-content: center;
 }
 div.alert-info{
-    border: 1px solid lightgrey;
-    background-color: rgb(214, 254, 254);
-    padding: 20px 260px;
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-ul{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-li {
-    background-color: lightgrey;
-    list-style: none;
-    padding: 20px 250px;
-    width: 300px;
-    margin: 10px 0px;
-    display: flex;
-
-}
-
-li.a {
-    margin: auto;
-}
-
-div.header-img {
-    display: flex;
-    /*justify-content: center;*/
-
+    border: 1px solid lightgray;
 }
 img {
-    width: 500px;
-    height: 224px;
-
+    width: 100%;
 }
-
 @media screen and (min-width:576px){
 
 }
