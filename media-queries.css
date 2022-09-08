@@ -3,6 +3,9 @@
 
 body {
     margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 div.alert-info{
     border: 1px solid lightgrey;
@@ -18,5 +21,25 @@ div.alert-info{
 h1 {
     display: flex;
     justify-content: center;
+}
 
+ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    background-color: lightgrey;
+    list-style: none;
+    padding: 20px 250px;
+    width: 300px;
+    margin: 10px 0px;
+    display: flex;
+
+}
+
+li.a {
+    margin: auto;
 }
