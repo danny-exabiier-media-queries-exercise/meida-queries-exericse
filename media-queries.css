@@ -43,3 +43,15 @@ li {
 li.a {
     margin: auto;
 }
+
+div.header-img {
+    display: flex;
+    /*justify-content: center;*/
+
+}
+img {
+    width: 500px;
+    height: 224px;
+
+}
+
