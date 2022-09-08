@@ -1,11 +1,9 @@
 @media screen and (min-width:576px){
-
 }
 
 body {
     margin:20px;
 }
-
 div.alert-info{
     border: 1px solid lightgrey;
     background-color: rgb(214, 254, 254);
@@ -15,5 +13,10 @@ div.alert-info{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
 
 }
